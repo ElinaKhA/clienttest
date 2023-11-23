@@ -1,13 +1,13 @@
 import Header from "./components/Header";
-import CRUD from "./components/CRUD";
+import CRUDT from "./components/CRUDT";
+import { BrowserRouter } from "react-router-dom";
 
-const App =()=>{
+function App(){
   return(
     <div>
       <Header/>
-      <CRUD/>
+      <CRUDT/>
     </div>
   )
 }
-
 export default App;
